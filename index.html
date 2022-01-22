@@ -7,22 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 class="Heading">Calculator</h1>
-	<div class="container">
-		<hr/>
-		<div class="userValue">
-			<input type="text" id="valueOfA" placeholder="Enter the Value of A" required>
-
-			<input type="text" id="valueOfB" placeholder="Enter the Value of B" required>
-			<br/><br/>
+	<div class="wrapper">
+		<h1 class="Heading">Calculator</h1>
+		<div class="container">
 			<hr/>
-			<button onclick="addition()">Addition</button>
-			<button onclick="substraction()">Substraction</button>
-			<button onclick="multiplication()">Multiplication</button>
-			<button onclick="division()">Division</button>
+			<div class="userValue">
+				<input type="text" id="valueOfA" placeholder="Enter the Value of A" required>
 
-			<div class="display" id="result">
+				<input type="text" id="valueOfB" placeholder="Enter the Value of B" required>
+				<br/><br/>
+				<hr/>
+				<button onclick="addition()">Addition</button>
+				<button onclick="substraction()">Substraction</button>
+				<button onclick="multiplication()">Multiplication</button>
+				<button onclick="division()">Division</button>
 
+				<div class="display" id="result">
+
+				</div>
 			</div>
 		</div>
 	</div>
